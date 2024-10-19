@@ -7,6 +7,8 @@
 5. [quicksort.js] - Quick Sort
 6. [deleteduplicatednumber.js] - Delete duplicated numbers
 7. [random.js] - Random a number and n numbers
+8. [twoSum.js] - Find numbers = target
+9. [romantoint.js] - Roman to Int
 
 ## Medium
 1. [reversednumber.js] - Reverse a number
