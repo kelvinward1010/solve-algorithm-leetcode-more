@@ -4,3 +4,4 @@
 4. [findtotalnumbersequanumber.js] - find total numbers = number before
 5. [quicksort.js] - Quick Sort
 6. [deleteduplicatednumber.js] - Delete duplicated numbers
+7. [random.js] - Random a number and n numbers
