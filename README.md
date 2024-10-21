@@ -12,3 +12,4 @@
 
 ## Medium
 1. [reversednumber.js] - Reverse a number
+2. [splitstringintomaxuniquesubtrings.js] - Split a String Into the Max Number of Unique Substrings
