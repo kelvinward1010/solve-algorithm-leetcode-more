@@ -9,6 +9,8 @@
 7. [random.js] - Random a number and n numbers
 8. [twoSum.js] - Find numbers = target
 9. [romantoint.js] - Roman to Int
+10. [fibonacci.js] - Create a list of Fibonacci numbers
+11. [minstringlength.js] - Minimum String Length After Removing Substrings
 
 ## Medium
 1. [reversednumber.js] - Reverse a number

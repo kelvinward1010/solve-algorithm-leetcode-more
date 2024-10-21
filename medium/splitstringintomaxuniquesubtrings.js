@@ -15,7 +15,7 @@ function maxUniqueSplit(s) {
             if(!set.has(part)) {
                 set.add(part);
                 helper(substring.slice(i), set);
-                set.delete(part);
+                // set.delete(part);
             }
         }
     }
