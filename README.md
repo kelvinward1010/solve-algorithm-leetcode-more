@@ -15,6 +15,7 @@
     1. [removeelement.js] - Remove Element
     2. [searchinsertposition.js] - Search Insert Position
     3. [plusone.js] - Plus One
+    4. [mergesorted.js] - Merge Sorted Array
 
 ## 2. Medium
 1. [reversednumber.js] - Reverse a number

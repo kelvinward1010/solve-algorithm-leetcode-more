@@ -1,7 +1,19 @@
 function plusOne(digits) {
     // let numberOne = Number(digits.join('')) + 1;
-    // return numberOne.toString().split('').map(Number);
-    
+    // let remap = numberOne.toString().split('').map(Number);
+
+    // if (remap.length > digits.length) {
+    //     remap = [1, ...Array(digits.length).fill(0)];
+    // } else {
+    //     for (let i = 0; i < remap.length; i++) {
+    //         if (remap[i] === 9) {
+    //             remap[i] = 0;
+    //         }
+    //     }
+    // }
+
+    // return remap;
+
     for (let i = digits.length - 1; i >= 0; i--) {
         if (digits[i] < 9) {
             digits[i]++;
