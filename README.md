@@ -22,6 +22,7 @@
     ### 1.2 String
     1. [romantoint.js] - Roman to Int
     2. [minstringlength.js] - Minimum String Length After Removing Substrings
+    3. [findindexofthestring.js] - Find the Index of the First Occurrence in a String
 
 ## 2. Medium
 1. [reversednumber.js] - Reverse a number
