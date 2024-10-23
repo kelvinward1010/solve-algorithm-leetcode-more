@@ -23,6 +23,8 @@
     1. [romantoint.js] - Roman to Int
     2. [minstringlength.js] - Minimum String Length After Removing Substrings
     3. [findindexofthestring.js] - Find the Index of the First Occurrence in a String
+    4. [lengthoflastword.js] - Length of Last Word
+    5. [addbinary.js] - Add Binary
 
 ## 2. Medium
 1. [reversednumber.js] - Reverse a number
