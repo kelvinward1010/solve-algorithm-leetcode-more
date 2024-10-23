@@ -18,8 +18,8 @@ function findMinMax(arr) {
 }
 
 function findMinMax2(arr){
-    const max = numbers.reduce((accumulator, currentValue) => Math.max(accumulator, currentValue));
-    const min = numbers.reduce((accumulator, currentValue) => Math.min(accumulator, currentValue));
+    const max = arr.reduce((accumulator, currentValue) => Math.max(accumulator, currentValue));
+    const min = arr.reduce((accumulator, currentValue) => Math.min(accumulator, currentValue));
     return {min, max}
 }
 
