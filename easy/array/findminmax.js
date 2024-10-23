@@ -17,6 +17,12 @@ function findMinMax(arr) {
     return { min, max };
 }
 
+function findMinMax2(arr){
+    const max = numbers.reduce((accumulator, currentValue) => Math.max(accumulator, currentValue));
+    const min = numbers.reduce((accumulator, currentValue) => Math.min(accumulator, currentValue));
+    return {min, max}
+}
+
 // Ví dụ sử dụng:
 const array = [3, 5, 1, 9, 2, 8, -1, 4];
 const { min, max } = findMinMax(array);
