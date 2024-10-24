@@ -25,6 +25,7 @@
     3. [findindexofthestring.js] - Find the Index of the First Occurrence in a String
     4. [lengthoflastword.js] - Length of Last Word
     5. [addbinary.js] - Add Binary
+    6. [longestcommonfrefix.js] - Longest Common Prefix
 
 ## 2. Medium
 1. [reversednumber.js] - Reverse a number
