@@ -27,6 +27,7 @@
     5. [addbinary.js] - Add Binary
     6. [longestcommonfrefix.js] - Longest Common Prefix
     7. [validparentheses.js] - Valid Parentheses
+    8. [validpalindrome.js] - Valid Palindrome
 
 ## 2. Medium
 1. [reversednumber.js] - Reverse a number
