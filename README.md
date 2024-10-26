@@ -29,6 +29,8 @@
     7. [validparentheses.js] - Valid Parentheses
     8. [validpalindrome.js] - Valid Palindrome
     9. [excelcolumntitle.js] - Excel Sheet Column Title
+    10. [validanagram.js] - Valid Anagram
+    11. [reversestring.js] - Reverse String
 
 ## 2. Medium
 1. [reversednumber.js] - Reverse a number
