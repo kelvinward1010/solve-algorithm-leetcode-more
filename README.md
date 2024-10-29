@@ -18,6 +18,7 @@
     8. [quicksort.js] - Quick Sort
     9. [findminmax.js] - Find min - max in array
     10. [deleteduplicatednumber.js] - Delete duplicated numbers
+    11. [containsduplicate.js] - Contains Duplicate
 
     ### 1.2 String
     1. [romantoint.js] - Roman to Int
