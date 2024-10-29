@@ -1,14 +1,27 @@
 function containsDuplicate(nums) {
-    const frequencyMap = nums.reduce((acc, num) => {
-        if (acc[num]) {
-            acc[num]++;
-        } else {
-            acc[num] = 1;
-        }
-        return acc;
-    }, {});
+    // const frequencyMap = nums.reduce((acc, num) => {
+    //     if (acc[num]) {
+    //         acc[num]++;
+    //     } else {
+    //         acc[num] = 1;
+    //     }
+    //     return acc;
+    // }, {});
 
-    return Object.values(frequencyMap).some(count => count > 1);
+    // return Object.values(frequencyMap).some(count => {
+    //     if(count > 1) return true;
+    //     else return false;
+    // });
+
+    const set = new Set();
+
+    for (const num of nums) {
+        if (set.has(num)) return true;
+
+        set.add(num);
+    }
+
+    return false;
 }
 
 // Ví dụ sử dụng:
