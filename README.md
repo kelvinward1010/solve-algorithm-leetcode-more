@@ -38,3 +38,4 @@
 1. [reversednumber.js] - Reverse a number
 2. [splitstringintomaxuniquesubtrings.js] - Split a String Into the Max Number of Unique Substrings
 3. [longestsubstringwithoutrepeat.js] - -Longest Substring Without Repeating Characters
+4. [backtracking.js] - Backtracking
