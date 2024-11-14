@@ -7,4 +7,10 @@ function multiply(num1, num2) {
 };
 
 
-console.log("3","4")
+console.log(multiply("3","4"))
+
+
+/*
+Độ phức tạp thời gian: O(1) cho các phép toán đơn giản, nhưng phụ thuộc vào độ lớn của số.
+Rất hiệu quả cho các bài toán lớn nếu môi trường hỗ trợ BigInt.
+*/

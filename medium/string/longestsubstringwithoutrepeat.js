@@ -1,3 +1,5 @@
+
+//O(n)
 var lengthOfLongestSubstring = function(s) {
     let left = 0, right = 0, maxLen = 0;
     let seen = new Set();
