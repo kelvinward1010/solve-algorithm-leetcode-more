@@ -35,7 +35,10 @@
     12. [reversevowelsstring.js] - Reverse Vowels of a String
 
 ## 2. Medium
-1. [reversednumber.js] - Reverse a number
-2. [splitstringintomaxuniquesubtrings.js] - Split a String Into the Max Number of Unique Substrings
-3. [longestsubstringwithoutrepeat.js] - -Longest Substring Without Repeating Characters
-4. [permutations.js] - Permutations use backtracking solution
+    ### 2.1 Array
+    1. [reversednumber.js] - Reverse a number
+
+    ### 2.2 String
+    1. [splitstringintomaxuniquesubtrings.js] - Split a String Into the Max Number of Unique Substrings
+    2. [longestsubstringwithoutrepeat.js] - -Longest Substring Without Repeating Characters
+    3. [permutations.js] - Permutations use backtracking solution
