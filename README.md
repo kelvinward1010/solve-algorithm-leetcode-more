@@ -42,3 +42,4 @@
     1. [splitstringintomaxuniquesubtrings.js] - Split a String Into the Max Number of Unique Substrings
     2. [longestsubstringwithoutrepeat.js] - -Longest Substring Without Repeating Characters
     3. [permutations.js] - Permutations use backtracking solution
+    4. [lettercombinations.js] - Letter Combinations of a Phone Number
