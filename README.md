@@ -37,6 +37,7 @@
 ## 2. Medium
     ### 2.1 Array
     1. [reversednumber.js] - Reverse a number
+    2. [combinationsum.js] - Combination Sum
 
     ### 2.2 String
     1. [splitstringintomaxuniquesubtrings.js] - Split a String Into the Max Number of Unique Substrings

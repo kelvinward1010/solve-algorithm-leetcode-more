@@ -54,14 +54,17 @@ function letterCombinations(digits){
         const nextResult = [''];
         result?.forEach(combination => {
             phoneMap[digit].split('').forEach(char => {
-                nextResult.push(combination + char)
+                if((combination + char)?.length === digits?.length){
+                    nextResult.push(combination + char)
+                }
             })
         });
         return nextResult;
     },[''])
     
     // O(m)
-    return digits.length > 1 ? allResult.filter(combination => combination?.length == digits?.length) : allResult.slice(1);
+    return allResult;
+    //return digits.length > 1 ? allResult.filter(combination => combination?.length == digits?.length) : allResult.slice(1);
 }
 
 
