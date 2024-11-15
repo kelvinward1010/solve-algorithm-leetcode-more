@@ -1,5 +1,4 @@
 // BFS - Breadth-First Search
-//Độ phức tạp: O(4^n) với n là số lượng chữ số trong chuỗi.
 function letterCombinations(digits){
     if(!digits) return [];
 
@@ -13,8 +12,9 @@ function letterCombinations(digits){
         '8': 'tuv', 
         '9': 'wxyz'
     }
-
+    
     // Dùng for dễ hiểu hơn nhưng hơi dài...
+    //Độ phức tạp: O(4^n) với n là số lượng chữ số trong chuỗi.
     // let result = [''];
     // for(const digit of digits){
     //     const nextResult = [];
@@ -26,6 +26,23 @@ function letterCombinations(digits){
     //     result.splice(0, result.length, ...nextResult)
     // }
     // return result;
+
+
+    // Đệ quy
+    // const result = [];
+    // function backtrack(index, path) {
+    //     if (path.length === digits.length) {
+    //         result.push(path);
+    //         return;
+    //     }
+        
+    //     for (const char of phoneMap[digits[index]]) {
+    //         backtrack(index + 1, path + char);
+    //     }
+    // }
+    // backtrack(0, '');
+    // return result;
+    
 
 
     //Dùng reduce 
